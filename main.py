@@ -10,9 +10,10 @@ else:
     print(f"❌ Não foi possível acessar: {pendrive}")
 
 # ── Configurações ──────────────────────────────────────────
-YOUTUBE_API_KEY = "AIzaSyCCZrdoOjcCk8YqA81swG0k2bcwrPODjGY" 
+YOUTUBE_API_KEY = "AIzaSyCCZrdoOjcCk8YqA81swG0k2bcwrPODjGY"
 PLAYLIST_ID = "PLBTf6uglIBM6_hnTpe219u0cRgzoxhKke"
 DESTINO = "D:\\"
+# PEGUE SUA API KEY AQUI: https://console.cloud.google.com/apis/credentials
 
 # ── Busca vídeos da playlist ───────────────────────────────
 def buscar_videos_playlist(playlist_id):
